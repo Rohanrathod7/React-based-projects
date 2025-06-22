@@ -1,0 +1,107 @@
+body {
+  box-sizing: border-box;
+}
+
+.app {
+  width: 317px;
+  height: 780px;
+  margin: auto;
+  padding: 0;
+  border-radius: 15px;
+}
+
+.logo {
+  width: 317px;
+  height: 317px;
+  background-image: url("../public/image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px auto;
+}
+
+.About_interest {
+  width: 247px;
+  height: 201px;
+  align-self: center;
+}
+
+.about {
+  padding: 0;
+  text-align: right;
+}
+
+.about h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 3px;
+}
+
+.about {
+  padding: 0;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.about h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 3px;
+}
+
+.button {
+  width: 247px;
+  margin: 20px auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__button {
+  padding: 11px 13px;
+  background-color: #ffffff;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  width: 317px;
+  height: 242px;
+  background-color: #ffffff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 20px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 195px;
+  margin: 0 auto;
+}
+
+.icon__social {
+  color: #918e9b;
+}
+
+.about-interest {
+  width: 247px;
+  height: 201px;
+  align-self: center;
+}

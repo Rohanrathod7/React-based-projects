@@ -1,0 +1,37 @@
+# dependencies
+Digital Business card/node_modules
+
+# production build
+/build
+/dist
+
+# environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# testing
+/coverage
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# lock files (optional to ignore, but not always recommended)
+/package-lock.json
+/yarn.lock
